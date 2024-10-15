@@ -1,0 +1,144 @@
+img
+{
+    width: 833px;
+    height: 500px;
+}
+.head
+{
+    
+    background-color: black;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.etiq
+{
+
+    color: white;
+    padding: 2px 5px;
+    border: solid 2px skyblue;
+
+
+}
+
+.p
+{
+  font-size: 0.85rem;
+   font-size: auto;
+   
+    display: flex
+    
+   
+    
+}
+section
+{
+    width: 500px;
+    height: 200px;
+display: flex;
+background-color: yellow;background-color: yellow;
+ display: inline;
+    
+}
+main
+{
+
+    display: flex;
+    
+}
+.ho
+{
+
+    height: 500px;
+    width: 833px;
+    background-color: aqua;
+    
+
+}
+.we
+{
+
+width: 1333px;
+height: auto;
+
+
+}
+
+
+
+@media screen and (max-width: 1329px)
+{
+
+    .section
+    {
+
+        width: 100%;
+        text-align: center; 
+
+    }
+    .head{
+
+        width: 100%;
+        text-align: center;
+
+    }
+    .we{
+
+        width: 100%;
+        align-items: center;
+
+    }
+    
+}
+
+@media screen and (max-width: 900px)
+{
+    .head{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .we{
+
+        width: 100%;
+        align-items: center;
+
+    }
+    .section
+    {
+
+        width: 100%;
+        text-align: center; 
+
+    }
+}
+@media screen and (max-width: 1200px)
+{ 
+
+    .head{
+
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+
+    }
+    .we{
+
+        width: 100%;
+        align-items: center;
+
+    }
+    .section
+    {
+
+        width: 100%;
+        text-align: center; 
+
+    }
+}

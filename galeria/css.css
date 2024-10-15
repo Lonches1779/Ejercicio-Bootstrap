@@ -1,9 +1,21 @@
 
-div
+img
 {
-
-    display: inline;
-   
+height: 100px;
+width: 100px;
 }
-
+.con{
+    display: flex;
+    height: 618px;
+    width: 1250px;
+    background-color: lightseagreen;
+    justify-content: center;
+    align-items: center;
+    }
+    .item
+    {
+      width: 103px;
+      height: 103px;
+ background-color: indigo;
+    }
 
