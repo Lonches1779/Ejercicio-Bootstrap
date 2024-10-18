@@ -4,7 +4,7 @@
     background-color: lightgrey;
     min-height: 200px;
     display: grid;
-    grid-template-columns: 100px 200px ;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)) 100px 200px ;
     grid-template-rows: 50px 40px 50px;
     gap: 10px;
 
