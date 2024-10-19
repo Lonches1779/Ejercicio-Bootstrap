@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 700px;
+    background-color: aqua;
+    
+   
+}
+
+#container > div > img {
+    width: 100px;
+    height: 100px;
+    
+   
+
+}
+
+
+#container > div {
+    width: 100px;
+    height: 100px;
+   
+}

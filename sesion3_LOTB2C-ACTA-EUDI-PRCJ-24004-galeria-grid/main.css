@@ -1,0 +1,112 @@
+*
+{
+
+margin: 0px;
+padding: 0px;
+border: 0px;
+
+}
+#container {
+    /* Esta es in Id del main aqui le damos la propiedad o
+     manejo grid luego colocamos las columnas y los renglones
+      edspues colocamos el ancho y el largo luego definimos las
+    areas donde se posionaran las imagenes o elementos  */
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px) ;
+    width: 300px;
+    height: 600px;
+    grid-template-areas:
+    
+    "perrito1 perrito2 perrito3  per1"
+     "perrito4 perrito5 perrito6 per2"
+     "perrito7 perrito8 perrito9 per3"
+     "per4 per5 per6 per7"
+     ;
+    /* column-gap: 12px;
+     row-gap: 12px;*/
+     gap: 12px 12px;
+     /*estas dos lines son  lineaciones verticales y horizontales */
+     justify-items: stretch;
+     align-items: start;
+}
+
+#container > div > img {
+    /*Esta es una speudo clase de una speudo clase*/
+    width: 100px;
+    height: 100px;
+}
+
+#container > div { 
+    /*Esta es una speudo clase*/
+    /* width: 50%; */
+    height: auto;
+    /* justify-self: stretch; */
+}
+
+#container > div:nth-child(1) {
+    /* Esta es un ID y le indicamos que un hijo de esta 
+    luego colocamos la posision  dode estara al principio y al fina de la columna y fila
+    la linea que no esta comentada es similar a las que si estan comentadas pero esta se 
+    basa con el gird-template area que esta el ID*/
+    /*grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;*/
+    grid-area: perrito1;
+   
+}
+#container > div:nth-child(2) {
+   /* grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;*/
+    grid-area: perrito3;
+   
+}
+#container > div:nth-child(3) {
+   /* grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;*/
+    grid-area: perrito5;
+   
+}
+#container > div:nth-child(4) {
+    /*grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;*/
+    grid-area: per2;
+   
+}
+#container > div:nth-child(5) {
+    /*grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4; */
+    grid-area: perrito7;
+   
+}
+#container > div:nth-child(6) {
+    /*grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4; */
+    grid-area: perrito9;
+   
+}
+li
+{
+    
+    display: inline;
+
+}
+.a
+{
+
+   
+    margin-left: 50px;
+
+
+}
